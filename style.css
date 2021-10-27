@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.parent {
+  padding: 20px 10px;
+  display: grid;
+  width: 500px;
+  height: 500px;
+  column-gap: 8px;
+  row-gap: 5px;
+  grid-template:
+    "a1 a2 a3"
+    "a1 a4 a3"
+    "a5 a5 a5";
+  /* border: 1px solid blueviolet; */
+}
+.c1 {
+  grid-area: a1;
+  /* background-color: aqua; */
+  border: 3px solid blueviolet;
+}
+.c2 {
+  grid-area: a2;
+  /* background-color: blue; */
+  border: 3px solid blueviolet;
+}
+.c3 {
+  grid-area: a3;
+  /* background-color: blueviolet; */
+  border: 3px solid blueviolet;
+}
+.c4 {
+  grid-area: a4;
+  /* background-color: brown; */
+  border: 3px solid blueviolet;
+}
+.c5 {
+  grid-area: a5;
+  /* background-color: chartreuse; */
+  border: 3px solid blueviolet;
+}
