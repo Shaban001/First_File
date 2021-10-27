@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  background-color: green;
+  height: 150px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+body {
+  background-color: cadetblue;
+}
+
+.Div_A {
+  background-color: blue;
+  width: 250px;
+  height: 500px;
+  margin-top: 10px;
+  float: left;
+}
+
+.Div_B {
+  background-color: red;
+  width: 170vh;
+  height: 80vh;
+  float: right;
+  margin-top: 10px;
+}
+
+.Div_Box1 {
+  background-color: purple;
+  width: 56%;
+  height: 15vh;
+  margin-left: 10px;
+  margin-top: 20px;
+  position: inherit;
+}
+
+.box {
+  height: 30vh;
+  width: 30vh;
+  background-color: yellow;
+  display: inline-block;
+  margin: 10px;
+  margin-top: 10px;
+}
